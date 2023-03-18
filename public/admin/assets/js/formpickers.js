@@ -1,34 +1,3 @@
-(function($) {
-  'use strict';
-  if ($("#timepicker-example").length) {
-    $('#timepicker-example').datetimepicker({
-      format: 'LT'
-    });
-  }
-  if ($(".color-picker").length) {
-    $('.color-picker').asColorPicker();
-  }
-  if ($("#datepicker-popup").length) {
-    $('#datepicker-popup').datepicker({
-      enableOnReadonly: true,
-      todayHighlight: true,
-    });
-  }
-  if ($("#inline-datepicker").length) {
-    $('#inline-datepicker').datepicker({
-      enableOnReadonly: true,
-      todayHighlight: true,
-    });
-  }
-  if ($(".datepicker-autoclose").length) {
-    $('.datepicker-autoclose').datepicker({
-      autoclose: true
-    });
-  }
-  if($('.input-daterange').length) {
-    $('.input-daterange input').each(function() {
-      $(this).datepicker('clearDates');
-    });
-    $('.input-daterange').datepicker({});
-  }
-})(jQuery);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d617776771a892e7ede3f56d78ca8cbeb57dc710d0dadaea13fc16dc338f6718
+size 841

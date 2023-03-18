@@ -1,8 +1,3 @@
-(function($) {
-  'use strict';
-  if ($(".circle-progress-1").length) {
-    $('.circle-progress-1').circleProgress({}).on('circle-animation-progress', function(event, progress, stepValue) {
-      $(this).find('.value').html(Math.round(100 * stepValue.toFixed(2).substr(1)) + '<i>%</i>');
-    });
-  }
-})(jQuery);
+version https://git-lfs.github.com/spec/v1
+oid sha256:f67917a40c247cf684f975aed34f53313800ab85ae6b5f140aa1af73363b1ea8
+size 310

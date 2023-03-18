@@ -1,31 +1,3 @@
-(function($) {
-  'use strict';
-  $('#defaultconfig').maxlength({
-    warningClass: "badge mt-1 badge-success",
-    limitReachedClass: "badge mt-1 badge-danger"
-  });
-
-  $('#defaultconfig-2').maxlength({
-    alwaysShow: true,
-    threshold: 20,
-    warningClass: "badge mt-1 badge-success",
-    limitReachedClass: "badge mt-1 badge-danger"
-  });
-
-  $('#defaultconfig-3').maxlength({
-    alwaysShow: true,
-    threshold: 10,
-    warningClass: "badge mt-1 badge-success",
-    limitReachedClass: "badge mt-1 badge-danger",
-    separator: ' of ',
-    preText: 'You have ',
-    postText: ' chars remaining.',
-    validate: true
-  });
-
-  $('#maxlength-textarea').maxlength({
-    alwaysShow: true,
-    warningClass: "badge mt-1 badge-success",
-    limitReachedClass: "badge mt-1 badge-danger"
-  });
-})(jQuery);
+version https://git-lfs.github.com/spec/v1
+oid sha256:5f63c6ab0fbc3dd9a2ba66f45ce7c5c00fc4c6b43a1727010118b1519e0e3dc6
+size 802

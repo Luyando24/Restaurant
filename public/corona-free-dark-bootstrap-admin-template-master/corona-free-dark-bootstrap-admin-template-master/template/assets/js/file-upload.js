@@ -1,12 +1,3 @@
-(function($) {
-  'use strict';
-  $(function() {
-    $('.file-upload-browse').on('click', function() {
-      var file = $(this).parent().parent().parent().find('.file-upload-default');
-      file.trigger('click');
-    });
-    $('.file-upload-default').on('change', function() {
-      $(this).parent().find('.form-control').val($(this).val().replace(/C:\\fakepath\\/i, ''));
-    });
-  });
-})(jQuery);
+version https://git-lfs.github.com/spec/v1
+oid sha256:d754269f00acefce08a6d921bec67166bb3749c74e3bc346e4208ce98b95b770
+size 398

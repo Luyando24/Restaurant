@@ -1,16 +1,3 @@
-(function($) {
-  'use strict';
-  var iconTochange;
-  dragula([document.getElementById("dragula-left"), document.getElementById("dragula-right")]);
-  dragula([document.getElementById("profile-list-left"), document.getElementById("profile-list-right")]);
-  dragula([document.getElementById("dragula-event-left"), document.getElementById("dragula-event-right")])
-    .on('drop', function(el) {
-      console.log($(el));
-      iconTochange = $(el).find('.mdi');
-      if (iconTochange.hasClass('mdi-check')) {
-        iconTochange.removeClass('mdi-check text-primary').addClass('mdi-check-all text-success');
-      } else if (iconTochange.hasClass('mdi-check-all')) {
-        iconTochange.removeClass('mdi-check-all text-success').addClass('mdi-check text-primary');
-      }
-    })
-})(jQuery);
+version https://git-lfs.github.com/spec/v1
+oid sha256:85137b6d1c1fcc5c48c9e375df18a38dc84d2708d3484ce5587188db1cb07be6
+size 789

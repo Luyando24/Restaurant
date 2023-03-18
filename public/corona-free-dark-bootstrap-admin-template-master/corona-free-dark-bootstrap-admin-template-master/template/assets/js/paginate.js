@@ -1,23 +1,3 @@
-(function($) {
-  'use strict';
-
-  if ($('#pagination-demo').length) {
-    $('#pagination-demo').twbsPagination({
-      totalPages: 35,
-      visiblePages: 7,
-      onPageClick: function(event, page) {
-        $('#page-content').text('Page ' + page);
-      }
-    });
-  }
-
-  if ($('.sync-pagination').length) {
-    $('.sync-pagination').twbsPagination({
-      totalPages: 20,
-      onPageClick: function(evt, page) {
-        $('#content').text('Page ' + page);
-      }
-    });
-  }
-
-})(jQuery);
+version https://git-lfs.github.com/spec/v1
+oid sha256:52db2f1b10b5305c27adeceef324375c6359f0f52915a1ee494140d3b8ffd41b
+size 491

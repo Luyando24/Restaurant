@@ -1,32 +1,3 @@
-(function($) {
-  'use strict';
-  $(function() {
-    /* Code for attribute data-custom-class for adding custom class to tooltip */
-    if (typeof $.fn.popover.Constructor === 'undefined') {
-      throw new Error('Bootstrap Popover must be included first!');
-    }
-
-    var Popover = $.fn.popover.Constructor;
-
-    // add customClass option to Bootstrap Tooltip
-    $.extend(Popover.Default, {
-      customClass: ''
-    });
-
-    var _show = Popover.prototype.show;
-
-    Popover.prototype.show = function() {
-
-      // invoke parent method
-      _show.apply(this, Array.prototype.slice.apply(arguments));
-
-      if (this.config.customClass) {
-        var tip = this.getTipElement();
-        $(tip).addClass(this.config.customClass);
-      }
-
-    };
-
-    $('[data-toggle="popover"]').popover()
-  });
-})(jQuery);
+version https://git-lfs.github.com/spec/v1
+oid sha256:90c09a770f0c2d0f58ba348df2ae4a3628be7dc2c3a617a122ec1446c1cf267f
+size 807
