@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Corona Admin</title>
-    <!-- plugins:css -->
-    @include('admin.admincss');
-  </head>
-  <body>
-  <x-app-layout>
- 
- </x-app-layout>
- <div class="container-scroller">
- @include('admin.navbar');
-     <h1>TABLE</h1>
-   
-</div>
-   @include('admin.adminscript');
-  </body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:e05a302849c15d4ff06c8f9e16b98c58625679ca90c0c21734da1bfdbee08fce
+size 1211

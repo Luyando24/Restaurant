@@ -1,31 +1,3 @@
-<?php
-
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
-use App\Http\Controllers\AdminController;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
-
-
-Route::get("/", [HomeController::class, "index"]);
-Route::get("/redirects", [HomeController::class, "redirects"]);
-Route::get("/users", [AdminController::class, "user"]);
-
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified'
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:27d3b922c66c48673c50e8e46298b78a79afd298c2fa7b94605eda8d37147b1d
+size 1106
